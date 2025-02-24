@@ -1,8 +1,12 @@
+@use './reset.scss';
 @use './colors.scss';
 @use './typography.scss';
 @use './layout.scss';
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 body {
+    font-family: "inconsolata";
     line-height: 1.28;
+    // temp
+    background: grey;
 }
