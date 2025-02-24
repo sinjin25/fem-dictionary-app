@@ -1,0 +1,24 @@
+$sizes: 14, 18, 20, 24, 64;
+
+@each $v in $sizes {
+    .fz-#{$v} {
+        // .fz-14
+        font-size: #{$v}px; // font-size: 14px
+    }
+}
+
+$family: 'inconsolata', 'inter', 'lora';
+
+@each $v in $family {
+    .ff-#{$v} {
+        font-family: #{$v};
+    }
+}
+
+$lh: 24;
+
+@each $v in $lh {
+    .lh-#{$v} {
+        line-height: #{$v};
+    }
+}
